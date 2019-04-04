@@ -13,49 +13,37 @@
     android:paddingBottom="0dp">
 
     <EditText
-        android:id="@+id/et_u2"
+        android:id="@+id/et_a"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="distance between object and lens 'u'"
+        android:hint="a"
         android:inputType="numberDecimal|numberSigned" />
 
     <EditText
-        android:id="@+id/et_v2"
+        android:id="@+id/et_b"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="distance between image and lens 'v'"
+        android:hint="b"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/et_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="c"
         android:inputType="numberDecimal|numberSigned" />
 
     <Button
-        android:id="@+id/bt_go2"
+        android:id="@+id/bt_go"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SOLVE" />
 
-    <Button
-        android:id="@+id/clr"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="CLEAR" />
-
     <TextView
-        android:id="@+id/result01"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="24dp" />
-
-    <TextView
-        android:id="@+id/result02"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="24dp" />
-
-    <TextView
-        android:id="@+id/result03"
+        android:id="@+id/tv_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
